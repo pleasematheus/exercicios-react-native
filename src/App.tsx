@@ -8,7 +8,7 @@ import Pai from './components/direta/Pai'
 // import MinMax from './components/MinMax'
 // import Aleatorio from './components/Aleatorio'
 // import MinMax from './components/MinMax'
-//import Aleatorio from './components/Aleatorio'
+// import Aleatorio from './components/Aleatorio'
 // import CompPradrao, { Comp1, Comp2 } from './components/Multi'
 // import Primeiro from './components/Primeiro'
 
