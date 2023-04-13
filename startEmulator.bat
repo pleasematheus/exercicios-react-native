@@ -1,4 +1,5 @@
 @echo off
 npx react-native run-android
-code %cd%
+%AppData%\Local\Programs\Microsoft VS Code\Code.exe
 cls
+pause
