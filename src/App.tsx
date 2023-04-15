@@ -1,7 +1,14 @@
 import React from 'react'
 import { SafeAreaView, StyleSheet } from 'react-native'
 
-import UsuarioLogado from './components/UsuarioLogado'
+import FlexboxV4 from './components/layout/FlexBoxV4'
+// import FlexboxV3 from './components/layout/FlexBoxV3'
+// import FlexboxV2 from './components/layout/FlexBoxV2'
+// import FlexboxV1 from './components/layout/FlexBoxV1'
+// import DigiteSeuNome from './components/DigiteSeuNome'
+// import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
+// import ListaProdutos from './components/produtos/ListaProdutos'
+// import UsuarioLogado from './components/UsuarioLogado'
 // import Familia from './components/relacao/Familia'
 // import Membro from './components/relacao/Membro'
 // import ParImpar from './components/ParImpar'
@@ -21,12 +28,19 @@ import UsuarioLogado from './components/UsuarioLogado'
 
 export default () => (
 	<SafeAreaView style={style.App}>
+		<FlexboxV4/>
+		{/*
+		<FlexboxV3/>
+		<FlexboxV2/>
+		<FlexboxV1/>
+		<DigiteSeuNome/>
+		<ListaProdutosV2/>
+		<ListaProdutos/>
 		<UsuarioLogado usuario={{nome: 'Gui', email: 'gui@gui.com'}}/>
 		<UsuarioLogado usuario={{nome: 'Ana'}}/>
 		<UsuarioLogado usuario={{email: 'carlos@empresa.com'}}/>
 		<UsuarioLogado usuario={null}/>
 		<UsuarioLogado usuario={{}}/>
-		{/*
 		<Familia>
 			<Membro nome="Bia" sobrenome="Arruda"/>
 			<Membro nome="Carlos" sobrenome="Arruda"/>
